@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import {Route, Routes} from 'react-router-dom'
 import BotSpecsPage from './pages/BotSpecsPage'
 import NotFoundPage from './pages/NotFoundPage'
 import BotPage from './pages/BotsPage'
@@ -14,7 +15,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <BotPage />
+      <Routes>
+        <Route path = '/' element = {<BotPage />}/>
+        <Route path='/' element = {<BotSpecsPage/>}/>
+      </Routes>
+      {/* <BotPage /> */}
     </div>
   );
 }
