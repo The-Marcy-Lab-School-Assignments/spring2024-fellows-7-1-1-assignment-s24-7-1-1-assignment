@@ -12,7 +12,7 @@ const App = () => {
   // - BotPage when the URL matches "/"
   // - BotSpecsPage when the URL matches "/robots/:id"
   // - NotFoundPage when the URL doesn't match either of the above URLs
-
+/** FEEDBACK: Route and Routes will not work because you forgot to wrap app in your browser router in the main.jsx file! */
   return (
     <div className="App">
       <Routes>
