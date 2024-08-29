@@ -17,7 +17,8 @@ const App = () => {
     <div className="App">
       <Routes>
         <Route path = '/' element = {<BotPage />}/>
-        <Route path='/' element = {<BotSpecsPage/>}/>
+        <Route path='/robots/:id' element = {<BotSpecsPage/>}/>
+        <Route path='*' element = {<NotFoundPage/>}/>
       </Routes>
       {/* <BotPage /> */}
     </div>
