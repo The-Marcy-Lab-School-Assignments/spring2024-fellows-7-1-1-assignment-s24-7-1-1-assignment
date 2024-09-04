@@ -1,8 +1,4 @@
 // TODO: Import BrowserRouter and wrap the entire app with it
-<<<<<<< HEAD
-=======
-// import 
->>>>>>> d539b7551ddb52df826e188d563454e4a298d085
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
